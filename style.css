@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+}
+
+.delenadance {
+  width: 100%;
+}
+
+.hero {
+  line-height: 0;
+  position: relative;
+}
+         
+.logo {
+    position: absolute;
+    font-size: 18px;
+    top: 75px;
+    right: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-family: helvetica;
+    font-weight:100;
+    color: white;
+    float: right;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 280px;
+    flex-grow: 5;
+}
+
+.button {
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 10px;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 200px;
+  word-break: keep-all;
+  z-index: 0;
+  margin-left: 50%;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 19px 32px;
+  }
+}
+
+.button:before,
+.button:after {
+  border-radius: 80px;
+}
+
+.button:before {
+  background-image: linear-gradient(92.83deg, #da7e7edd 0, hsl(10, 100%, 50%) 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button:after {
+  background-color: initial;
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.spotify {
+  float: left;
+  width: 40%;
+  margin-right: 110px;
+  margin-left: 50px
+}
+
+.soundtrack {
+  background-image: radial-gradient(rgb(96, 20, 20), black);
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.soundtrack h1 {
+  color: red;
+  font-family: Helvetica;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+span{
+  color: white;
+}
+
+.songs {
+  display: flex;
+  margin-left: 750px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.songs img {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.songs p {
+  font-size: 12px;
+  line-height: 20px;
+  flex-shrink: 0;
+  margin-left: 40px;
+  margin-top: 0;
+  font-family: helvetica;
+  font-weight:100;
+  color: white;
+}
+
+.songs p:first-of-type {
+  flex-grow: 1;
+}
+
+.songs p:last-of-type {
+  text-align: right;
+  margin-right: 70px;
+}
+
+aside {
+  margin-top: 15px;
+}
+
+.gallery {
+  background-color: black;
+}
+
+.gallery h1 {
+  color: red;
+  font-family: helvetica;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+}
+
+.gallery img {
+  width: 28%;
+  margin: 15px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.actualphotos {
+  display: flex;
+  justify-content: flex-end;
+}
